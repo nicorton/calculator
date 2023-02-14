@@ -1,0 +1,90 @@
+/* nic-calculator.php css */
+
+.grid-container{
+    display: flex;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: 80px 200px;
+    justify-content: space-evenly;
+}
+
+.row-3 {
+    grid-area: 2 / 1 / span 2 / span 3;
+  }
+
+
+/* simple-calculator.php css */
+
+table {
+    border: 7px solid white;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color:  #ffb3e6;
+}
+
+input[type="button"] {
+    width: 88%;
+    padding: 20px 45px;
+    background-color: #66b5ff;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover{
+    background-color: #cc00ff;
+}
+
+input[type="text"] {
+    padding: 20px 120px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+#heading{
+    text-align: center;
+    font-family: arial;
+    background-color: #ffb3e6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    margin-left: 325px;
+    margin-right: 325px;
+    border: 7px solid white;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 900px){
+    #h1-itself-mobile{
+        text-align: left;
+        font-size: 20px;
+    }
+
+    #h1-itself{
+        display: none;
+    }
+
+    #heading{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+}
+
+#answer{
+    margin-bottom: 20px;
+    background-color: #e6f2ff;
+}
+
+body{
+    /* background-image: url("background-img-2.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
